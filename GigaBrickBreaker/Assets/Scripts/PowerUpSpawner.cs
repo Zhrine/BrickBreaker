@@ -12,6 +12,7 @@ public class PowerUpSpawner : MonoBehaviour
 
     private IEnumerator SpawnPowerUps()
     {
+        yield return new WaitForSeconds(15f);
         while (true)
         {
             Vector3 spawnPosition = new Vector3(Random.Range(-8f, 8f), 16f, 0f);
