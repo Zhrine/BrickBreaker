@@ -128,3 +128,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  collisionSound: {fileID: 8300000, guid: fba40dcbc6b7f3d40905f4e54f132a7e, type: 3}

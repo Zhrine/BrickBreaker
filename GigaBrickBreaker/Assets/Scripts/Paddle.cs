@@ -17,11 +17,11 @@ public class Paddle : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if (TouchControls.isLeftPressed || Input.GetKey(KeyCode.LeftArrow))
         {
             this.Direction = Vector3.left;
         }
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        else if (TouchControls.isRightPressed|| Input.GetKey(KeyCode.RightArrow))
         {
             this.Direction = Vector3.right;
         }
